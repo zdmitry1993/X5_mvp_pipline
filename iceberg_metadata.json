@@ -1,0 +1,17 @@
+{
+  "format-version": 2,
+  "table-uuid": "uuid-x5-retail-001",
+  "location": "s3://x5-data-lake/retail/sales_daily",
+  "current-snapshot-id": 1,
+  "snapshots": [
+    {
+      "snapshot-id": 1,
+      "timestamp-ms": 1768836060039,
+      "manifest-list": "s3://x5-data-lake/retail/metadata/snap-1.avro"
+    }
+  ],
+  "properties": {
+    "write.format.default": "parquet",
+    "write.parquet.compression-codec": "snappy"
+  }
+}
